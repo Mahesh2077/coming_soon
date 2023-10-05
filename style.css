@@ -6,11 +6,13 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+body{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
 .container {
-/*     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
     height: 100vh;
     overflow: hidden;
     padding: 20px;
@@ -49,13 +51,6 @@
     margin-bottom: 35px;
 }
 .popup {
-/*   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  padding: 25px;
-  width: 600px;
-  background-color: rgba(0, 208, 254, 0.25); */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -71,9 +66,6 @@
 
 /* Media Queries for Responsive Design */
 @media (max-width: 600px){
-/*   .popup {
-    max-width: fit-content;
-  } */
   .container .logo {
     max-width: 150px;
     margin-bottom: 30px;
