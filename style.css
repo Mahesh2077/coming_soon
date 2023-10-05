@@ -61,7 +61,7 @@
   flex-wrap: wrap;
   text-align: center;
   padding: 25px;
-  width: 600px;
+  max-width: 600px;
   background-color: rgba(0, 208, 254, 0.25);
   top: 50%;
   position: relative;
@@ -71,9 +71,9 @@
 
 /* Media Queries for Responsive Design */
 @media (max-width: 600px){
-  .popup {
+/*   .popup {
     max-width: fit-content;
-  }
+  } */
   .container .logo {
     max-width: 150px;
     margin-bottom: 30px;
