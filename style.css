@@ -58,6 +58,9 @@
 
 /* Media Queries for Responsive Design */
 @media (max-width: 600px){
+  .popup {
+    max-width: fit-content;
+  }
   .container .logo {
     max-width: 150px;
     margin-bottom: 30px;
